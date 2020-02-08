@@ -56,3 +56,18 @@ body {
     font-size: 1.4rem;
     color: white;
 }
+
+button {
+    border-style: solid;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
