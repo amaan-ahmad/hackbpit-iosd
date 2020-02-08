@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.6s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flip {
+    transform: rotateY(180deg);
+
+}
+
+.homepage-content, .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.about-content {
+    transform: rotateY(180deg);
+    background-color: darkslategrey;
+}
+
+.homepage-content .heading, .about-content .heading {
+    font-size: 3.5em;
+    font-family: "Segoe UI", serif;
+    padding: 1rem;
+}
+
+.homepage-content .heading span {
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.about-content .heading span {
+    font-size: 1.4rem;
+    color: white;
+}
