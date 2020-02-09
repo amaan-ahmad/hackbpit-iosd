@@ -50,7 +50,7 @@ body {
 
 .about-content {
     transform: rotateY(180deg);
-    background-color: darkslategrey;
+    background-color: black;
 }
 
 .homepage-content {
@@ -60,9 +60,12 @@ body {
 }
 
 .homepage-content .heading, .about-content .heading {
-    font-size: 2.4em;
     font-family: "Segoe UI", serif;
     padding: 1rem;
+}
+
+.homepage-content .heading {
+    font-size: 2em;
 }
 
 .homepage-content .heading span {
@@ -71,8 +74,16 @@ body {
 }
 
 .about-content .heading span {
-    font-size: 1.4rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    word-wrap: break-word;
     color: white;
+}
+
+.about-content .heading {
+    display: block;
+    width: 50vw;
+    height: fit-content;
 }
 
 button {
@@ -82,7 +93,9 @@ button {
     color: white;
     transition: all 0.5s ease;
     padding: 1em 1.5em;
+    display: block;
     border-radius: 5px;
+    margin: 1em 0;
 }
 
 button:hover {
@@ -95,4 +108,10 @@ button:hover {
     font-size: 1em;
     padding: 1em;
     margin: 0.5em 0;
+}
+
+@media screen and (max-height: 600px) {
+    .heading {
+        font-size: 1em;
+    }
 }

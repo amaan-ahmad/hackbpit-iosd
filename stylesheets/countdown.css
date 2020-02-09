@@ -8,3 +8,12 @@
     color: black;
     padding: 1em;
 }
+@media screen and (max-height: 600px) {
+    .hero-timeout ul li, .hero-timeout ul li span {
+        font-size: medium;
+    }
+
+    .hero-timeout {
+        padding: 0.5em;
+    }
+}
