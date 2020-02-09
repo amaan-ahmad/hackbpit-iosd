@@ -1,0 +1,10 @@
+.hero-timeout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1em;
+}

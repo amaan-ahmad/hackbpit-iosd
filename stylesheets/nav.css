@@ -14,6 +14,10 @@
     padding: 1em;
 }
 
+.no-display {
+    opacity: 0;
+}
+
 .hamburger {
     z-index: 15;
     display: flex;

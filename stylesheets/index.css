@@ -3,6 +3,17 @@ body {
     padding: 0;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 .slide-1 {
     width: 100vw;
     height: 100vh;
@@ -22,6 +33,7 @@ body {
 }
 
 .homepage-content, .about-content {
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,8 +53,14 @@ body {
     background-color: darkslategrey;
 }
 
+.homepage-content {
+    background-image: url("../assets/images/home-back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .homepage-content .heading, .about-content .heading {
-    font-size: 3.5em;
+    font-size: 2.4em;
     font-family: "Segoe UI", serif;
     padding: 1rem;
 }
@@ -70,4 +88,11 @@ button {
 button:hover {
     background-color: white;
     color: black;
+}
+
+.sub-heading {
+    font-family: "Segoe UI Light", serif;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0.5em 0;
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheets/index.css">
     <link rel="stylesheet" href="stylesheets/fonts.css">
     <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/countdown.css">
     <title>HackBPIT | IOSD</title>
 </head>
 <body>
@@ -25,14 +26,26 @@
 </ul>
 <div class="slide-1">
     <div class="container">
-        <!--            add onclick flipMe() to container.-->
         <div class="homepage-content">
+            <div class="overlay"></div>
             <div class="heading">
-                HackBPIT'20 <span>by IOSD</span>
+                Registrations open
             </div>
             <button onclick="flipMe()">
                 Click me
             </button>
+            <span class="sub-heading">
+                28 - 29th March 2020
+            </span>
+            <div class="hero-timeout">
+                <span>Hacking begins in</span>
+                <ul>
+                    <li><span id="day">00</span>days</li>
+                    <li><span id="hour">00</span>Hours</li>
+                    <li><span id="minute">00</span>Minutes</li>
+                    <li><span id="second">00</span>Seconds</li>
+                </ul>
+            </div>
         </div>
         <div class="about-content">
             <div class="heading">
@@ -48,5 +61,6 @@
 </div>
 <script src="js/anim.js" lang="javascript" type="text/javascript"></script>
 <script src="js/nav.js" lang="javascript" type="text/javascript"></script>
+<script src="js/countdown.js" lang="javascript" type="text/javascript"></script>
 </body>
 </html>
