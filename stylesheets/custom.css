@@ -1,0 +1,96 @@
+/* color : #163055 */
+
+
+.main{
+    background-color: black;
+}
+
+#pg-1{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-content: center; */
+    background-image: url('../assets/images/rocket.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-origin: content-box;
+}
+
+#logo{
+    display: block;
+    width: 20vw;
+    padding: 0.4rem;
+    height: auto;
+}
+
+.welcome{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    width: auto;
+    height: 100%;
+}
+
+.welcome span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-size: 1.4em; */
+    color : whitesmoke;
+}
+
+.welcome p{
+    color: rgb(194, 224, 235);
+}
+
+.welcome button{
+    align-content: center;
+    align-self: center;
+    margin-top: 0.5em;
+    padding: 1.2em;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 500ms ease-in-out;
+}
+
+.welcome button:hover{
+    box-shadow: white 10px 10px 1px;
+    background-color: white;
+    color: black;
+}
+
+.welcome .small{
+    /* margin: 0.5em 0; */
+    font-size: 1em;
+}
+
+.dates{
+    margin-top: 1em;
+    align-self: center;
+}
+
+@media screen and (min-width: 700px){
+    #pg-1{
+        background-image: url('../assets/images/rocket-big.jpg');
+    }
+    .welcome .dates{
+        align-self: flex-start;
+    }
+    .welcome button{
+        align-self: start;
+    }
+}
+
+@media screen and (max-height: 500px){
+    #pg-1{
+        background-image: none;
+        background-color: #163055;
+    }
+}
