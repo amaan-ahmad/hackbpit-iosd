@@ -94,3 +94,22 @@
         background-color: #163055;
     }
 }
+
+#pg-2{
+    width: inherit;
+    height: 100vh;
+    background-color: #E6E6E6;
+    padding: 4em;
+}
+
+#pg-2 article{
+    margin: 0 5%; 
+}
+/* 
+.article-griding{
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+/* #pg-2 > div > p, #pg-2 > div > blockquote{
+    padding: 1em;
+} */
