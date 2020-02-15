@@ -11,21 +11,22 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: url('../assets/images/rocket.jpg');
+    /*background-image: url('../assets/images/rocket.jpg');*/
+    background-image: linear-gradient(90deg, #481e46, #8c268c);
     background-repeat: no-repeat;
-    background-size: 100% 110%;
+    /*background-size: 100% 110%;*/
     background-origin: content-box;
 }
 
 #logo{
     display: block;
-    width: 20vw;
+    width: 10vw;
     padding: 0.4rem;
     height: auto;
 }
 
 .welcome{
-    padding: 2em;
+    padding: 3em;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -72,10 +73,21 @@
     align-self: center;
 }
 
+.welcome .social .social-icon{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding: 1em
+}
+
 @media screen and (min-width: 700px){
-    #pg-1{
-        background-image: url('../assets/images/rocket-big.jpg');
-    }
+    /*#pg-1{*/
+    /*    background-image: url('../assets/images/rocket-big.jpg');*/
+    /*}*/
     .welcome .dates{
         align-self: flex-start;
     }
@@ -104,7 +116,7 @@
 }
 
 #pg-2 article{
-    margin: 0 5%; 
+    margin: 5%;
     display: flex;
     flex-direction: row;
 
@@ -125,7 +137,7 @@
     width: 50vw;
     height: auto;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     #pg-2 article{
         flex-direction: column;
     }
@@ -135,5 +147,13 @@
     .c-2 video, .uk-article .c-1{
         width: auto;
         height: auto;
+    }
+    .welcome .social .social-icon{
+        flex-direction: column;
+    }
+    .welcome .social .social-icon svg{
+        margin:0.3em 0;
+        width: 24px;
+        height: 24px;
     }
 }

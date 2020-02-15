@@ -1,7 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ec7666a-b23e-4f45-bbb0-dd2a0ed39a25" name="Default Changelist" comment="" />
+    <list default="true" id="5ec7666a-b23e-4f45-bbb0-dd2a0ed39a25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/BACKERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.extensions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/dist/fullpage.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/active-slide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/angular-fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/auto-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/autoplay-video-and-audio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/background-video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/backgrounds-fixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/backgrounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/callbacks-v2-compatible.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/callbacks-v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/continuous-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/continuous-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/css3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/drag-and-move.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/easing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/examples.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/examples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/fading-effect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/fixed-headers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/gradient-backgrounds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/compatible.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/copyright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/en-language-inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/en-language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/es-language-inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/es-language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/example2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/flowers.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/flowers.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/fullPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/horse.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/horse.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone-two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/iphone4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/tablets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/imgs/used-by-fullpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/interlocked-slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/jquery-adapter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/lazy-load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/looping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/browserify-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/browserify-example/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/browserify-example/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/browserify-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/browserify-example/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/requirejs-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/requirejs-example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/requirejs-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/requirejs-example/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/requirejs-example/src/require.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/module_loaders/webpack-example/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/navigation-horizontal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/navigation-tooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/navigation-vertical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/no-anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/normal-scroll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/normalScrollElements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/offset-sections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/one-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/parallax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/react-fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/reset-sliders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/responsive-auto-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/responsive-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/responsive-slides.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/responsive-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scroll-horizontally.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scrollBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scrollOverflow-old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scrollOverflow-reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scrollOverflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/scrolling-speed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/trigger-animations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/examples/vue-fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/chinese/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/chinese/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/chinese/parallax-extensionmd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/korean/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/korean/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/korean/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/russian/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/russian/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/russian/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/spanish/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/spanish/how-to-activate-fullpage-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/spanish/parallax-extension.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/es.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/fr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/ko.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/ru.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/lang/website/zh.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/src/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/src/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/browserstack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/arrows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/bigSectionsDestination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/callbacksV3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/continuousVertical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/displayWarnings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/easingcss3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/fitToSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/fixedElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/keyboardScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/lockAnchors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/loopBottom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/loopTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/moveSectionDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/moveSectionUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/moveSlideLeft.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/moveSlideRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/moveTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/normalScrollElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/paddings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/recordHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/responsiveHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/responsiveWidth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/scrollBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/scrollingSpeed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/sectionsColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/setAllowScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/setAutoScrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/silentMoveTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/slidesNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/unit/verticalCentered.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/tests/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/easings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/easings.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/easings.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/scrolloverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/scrolloverflow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fullPage/vendors/scrolloverflow.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/custom.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,15 +195,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xl0F9UTxj5SKXHbhtAIKlrK4op" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,10 +238,45 @@
       <option name="presentableId" value="Default" />
       <updated>1581605268356</updated>
       <workItem from="1581605280892" duration="291000" />
+      <workItem from="1582294953018" duration="219000" />
+      <workItem from="1582359362082" duration="6638000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582359556958">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582359556958" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582295170088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582295170088" />
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom" timestamp="1582361331067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582361331067" />
+    <state width="1515" height="190" key="GridCell.Tab.0.center" timestamp="1582361331066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582361331066" />
+    <state width="1515" height="190" key="GridCell.Tab.0.left" timestamp="1582361331066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582361331066" />
+    <state width="1515" height="190" key="GridCell.Tab.0.right" timestamp="1582361331067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582361331067" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582366195316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582366195316" />
   </component>
 </project>
