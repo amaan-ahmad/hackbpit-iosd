@@ -71,7 +71,7 @@
     margin-top: 1em;
     align-self: center;
 }
-
+ /*  */
 @media screen and (min-width: 700px){
     #pg-1{
         background-image: url('../assets/images/rocket-big.jpg');
