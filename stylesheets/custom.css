@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: linear-gradient(90deg, #a20071, #573cab);
+    background-image: linear-gradient(90deg, #a20071, #F06292);
     background-repeat: no-repeat;
     background-origin: content-box;
 }
@@ -89,26 +89,10 @@
     right: 0;
     background-color: transparent;
 }
-@media screen and (min-width: 700px){
-
-    .welcome .dates{
-        align-self: flex-start;
-    }
-    .welcome button{
-        align-self: start;
-    }
-}
-
-
-
-@media screen and (max-height: 550px){
-    #pg-1{
-        background-image: none;
-        background-color: #163055;
-    }
-}
 
 #pg-2{
+    background-image: url('../assets/svg/prismshape-bg.svg');
+    background-size: cover;
     width: inherit;
     height: 100vh;
     background-color: #E6E6E6;
@@ -126,8 +110,9 @@
 }
 
 .uk-article p{
-    font-size: 1rem;
+    font-size: 1.2em;
     white-space: space pre;
+    color: #616161;
     width: auto;
     margin-right: 1em;    
 }
@@ -140,6 +125,20 @@
     width: 50vw;
     height: auto;
 }
+
+
+
+@media screen and (min-width: 700px){
+
+    .welcome .dates{
+        align-self: flex-start;
+    }
+    .welcome button{
+        align-self: start;
+    }
+}
+
+
 @media screen and (max-width: 800px){
     #pg-2 article{
         flex-direction: column;
@@ -150,5 +149,15 @@
     .c-2 video, .uk-article .c-1{
         width: auto;
         height: auto;
+    }
+    #pg-2{
+        background-position: center;
+    }
+}
+
+@media screen and (max-height: 550px){
+    #pg-1{
+        background-image: none;
+        background-color: #163055;
     }
 }
